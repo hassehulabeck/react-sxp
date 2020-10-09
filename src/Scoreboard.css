@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap");
+
+.scoreboard {
+    background-color: #ccc;
+    margin: -1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    font-family: "Rowdies", cursive;
+}
+.scoreboxes {
+    border: thin solid red;
+    padding: 1em;
+    border-radius: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+.scoreboard div {
+    display: inline-block;
+    border: thin solid red;
+    flex: 0 1 25%;
+    margin-bottom: 1em;
+    padding: 1em;
+}
